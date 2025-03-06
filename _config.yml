@@ -34,6 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# MathJax
+markdown:
+  kramdown:
+    input: GFM
+    math_engine: mathjax # you can also set this field to 'katex'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
